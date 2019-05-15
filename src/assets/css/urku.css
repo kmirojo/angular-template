@@ -2170,3 +2170,7 @@ body {
 .rk-light-color {
   color: #787878;
 }
+
+a{
+  cursor: pointer;
+}
