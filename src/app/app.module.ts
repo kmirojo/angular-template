@@ -13,6 +13,7 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { SanitizeHtmlDirective } from './sanitize-html.directive';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SanitizeHtmlDirective } from './sanitize-html.directive';
     PortafolioComponent,
     AboutComponent,
     ItemComponent,
-    SanitizeHtmlDirective
+    SanitizeHtmlDirective,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
